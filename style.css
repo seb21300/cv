@@ -1,0 +1,62 @@
+h1
+{
+   font-size: 2em;
+   text-align: center;
+   color: beige;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   border: 3px solid black;
+   box-shadow: 6px 6px 6px black;
+}
+body
+{
+    background-image: url(fondcv.jpg);
+}
+.adress
+{
+    text-align: right;
+    color: beige;
+    font-size: 1.5em;
+    font-family:'Arial Narrow Bold', sans-serif ;
+}
+p
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h2
+{
+    text-transform: uppercase;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 1.6em;
+    color:beige;
+    text-decoration: underline;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 6px 6px 6px black;
+}
+en
+{
+    text-decoration: underline;
+}
+.objectif
+{
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+spam
+{
+    color:blue;
+}
+.list
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;
+    margin: auto;
+}
+.list1
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    display: flex;
+}

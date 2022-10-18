@@ -77,8 +77,9 @@
         font-size: 1.3em;
         font-family:"playfair display";
         font-weight: bold;
-        display: flex;
         color: rgb(4, 14, 56);
+        margin: auto;
+        width: 25%;
     }
     h3
     {
@@ -86,5 +87,7 @@
         color:rgb(202, 191, 40);
         font-family:"merriweather";
         text-decoration: underline;
+        margin: auto;
+        text-align:center;
 
     } 

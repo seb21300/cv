@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "bungee";
+    src: url(Bungee-Regular.ttf);
+} 
+@font-face {
+    font-family: "playfair display";
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+    src: url(PlayfairDisplay-Italic-VariableFont_wght.ttf)
+} 
+h1
+{
+    font-family: "bungee";
+    text-shadow: 10px 5px 3px black;
+    font-size: 5em;
+    text-align: center;
+    color:rgb(202, 191, 40);
+    border: 3px solid black;
+    box-shadow: 6px 6px 6px black;
+      
+}
+body
+{
+    background-image: url(fondcv.jpg) ;
+}
+.adress
+{
+    text-align: right;
+    color: rgb(202, 191, 40);
+    font-size: 1.5em;
+    font-family: 'Merriweather', serif; 
+}
+p
+{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: #9EFFCD;
+    text-shadow: 1px 1px 1px black;
+    
+}
+h2
+{
+    text-transform:uppercase;
+    text-shadow: 10px 5px 3px black;
+    font-family:"bungee";
+    font-size: 2.6em;
+    color:rgb(202, 191, 40);
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 6px 6px 6px black;
+}
+en
+{
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px black;
+}
+.objectif
+{
+    font-size: 2em;
+    font-family: 'Merriweather', serif;
+    text-shadow: 3px 3px 3px black;
+}
+spam
+{
+    color:blue;
+    text-shadow: 3px 3px 3px black;
+}
+.list
+{
+    font-size: 1.7em;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin: auto;
+    width: 50%;
+    color:  rgb(101, 238, 194);
+    text-shadow: 3px 3px 3px black;
+}
+.list1
+{
+    font-size: 1.7em;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color:  rgb(101, 238, 194);
+    margin: auto;
+    width: 25%;
+    text-shadow: 3px 3px 3px black;
+
+}    
+h3   
+{
+    font-size:  2em;
+    color:rgb(202, 191, 40);
+    font-family:"bungee";
+    text-shadow: 10px 5px 3px black;
+    margin: auto;
+    text-align:center;
+    text-shadow: 3px 3px 3px black;
+}
+@media  all and (max-device-width:1024px) 
+{
+    .list
+    {
+        width:100%
+    }
+    h3
+    {
+        text-align: left;
+    }
+    .list1
+    {
+        width: 100%;
+    }
+}
